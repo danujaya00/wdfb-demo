@@ -1,37 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        img{
-            border: 2px solid ;
-            border-radius:10px;
-            padding: 2px;
-            max-width: 40%;
-            height: 10%;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        video{
-            border: 2px solid ;
-            border-radius:10px;
-            padding: 2px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            max-width: 70%;
-        }
-    </style>
-</head>
-<body>
-    <img src="image.jpg" alt="this is the image">
-    <hr>
-    <video  controls autoplay>
-        <source src="beachtl.MOV">
-    </video>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			img {
+				border: 2px solid;
+				border-radius: 10px;
+				padding: 2px;
+				max-width: 40%;
+				height: 10%;
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+                opacity: 0.2;
+			}
+			video {
+				border: 2px solid;
+				border-radius: 10px;
+				padding: 2px;
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				max-width: 70%;
+			}
+            .transform_animation{
+                width: 100px;
+                height: 50px;
+                margin-top: 100px;
+                background-color: aquamarine;
+            }
+            .transform_animation:hover{
+                transform: translate(100px,100px);
+            }
+		</style>
+	</head>
+	<body>
+		<img src="image.jpg" alt="this is the image" />
+		<hr />
+		<center>
+			<div class="transform_animation"></div>
+		</center>
+	</body>
 </html>
