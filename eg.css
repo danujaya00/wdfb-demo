@@ -1,0 +1,14 @@
+*{padding: 0;
+margin: 0;
+font-size: 35px;}
+.box1{
+    background-color: lightblue;
+    padding:  20px 10px 30px 40px;
+    border: 0;
+    margin: 0;
+}
+.box2{
+    background-color: lightgoldenrodyellow;
+    border: 0;
+    margin: 20px;
+}
